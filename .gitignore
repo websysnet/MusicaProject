@@ -1,0 +1,51 @@
+# .gitignore for .NET projects
+
+## Build Folders
+bin/
+obj/
+
+# Avoid tracking build outputs (DLLs, PDBs, EXEs, etc.)
+*.dll
+*.pdb
+*.exe
+*.cache
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.resharper
+
+## Rider
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+
+## NuGet Packages
+*.nupkg
+packages/
+
+## Logs
+*.log
+
+## OS generated files
+*.DS_Store
+Thumbs.db
+
+## other
+*.userprefs
+
+# Blazor
+wwwroot/_framework/
+wwwroot/obj/
+
+# Published output
+publish/
+
+# User-specific files
+*.user
+
+# dotnet watch
+.dotnetwatch
